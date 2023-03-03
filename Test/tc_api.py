@@ -18,6 +18,6 @@ class Test_api:
 		assert json_response['page'] == 2
 		assert json_response[ "total_pages"] ==2
 		print(json_response)
-		print(type(json_response))
+		
 		
 		
